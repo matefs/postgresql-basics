@@ -1,0 +1,20 @@
+
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+INSERT INTO EMPLOYEE VALUES (1, 'Clark', 'Sales');
+INSERT INTO EMPLOYEE VALUES (2, 'Dave', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (3, 'Ava', 'Sales');
+
+BEGIN;
+
+UPDATE EMPLOYEE SET dept = 'Marketing' WHERE empId = 1;
+INSERT INTO EMPLOYEE VALUES (4, 'Eva', 'HR');
+
+COMMIT;
+
+
+select * From EMPLOYEE
