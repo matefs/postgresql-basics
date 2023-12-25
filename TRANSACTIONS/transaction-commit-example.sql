@@ -1,4 +1,4 @@
-
+ 
 create table CONTA(
  nro_conta int primary key,
  nome_titular varchar(30) not null,
@@ -16,4 +16,13 @@ insert into conta(nro_conta, nome_titular, saldo)
 insert into conta(nro_conta, nome_titular, saldo) 
  values(5, 'Bruna', -125);
 
- 
+select * From conta order by nro_conta;
+
+begin; 
+update conta set saldo = saldo - 100 where nro_conta = 1 ;
+update conta set saldo = saldo - 100 where nro_conta = 2;
+commit;
+
+select * From conta order by nro_conta;
+
+
