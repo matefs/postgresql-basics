@@ -1,4 +1,4 @@
-
+-- source: https://www.youtube.com/watch?v=iFmL8Ys46Z0&ab_channel=DesCOMPlica%2COliba%21
 
 create table CONTA(
  nro_conta int primary key,
