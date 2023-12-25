@@ -1,6 +1,6 @@
 ## postgresql-basics
 
-![image](https://github.com/matefs/postgresql-basics/assets/30128774/65674296-27e0-4a58-9f2f-02b8acc27b8d)
+![image](https://github.com/matefs/postgresql-basics/assets/30128774/4c943064-efe2-4624-b56e-d9d5564f6e8d)
 
 
 #### Working with strings: 
