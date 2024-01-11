@@ -15,3 +15,26 @@ INSERT INTO employees (first_name, last_name, job_title, hire_date, salary) VALU
 ('Alice', 'Williams', 'UI/UX Designer', '2022-04-05', 70000.00),
 ('Charlie', 'Brown', 'System Analyst', '2022-05-20', 85000.00);
 
+-- Adding a new column 'employee_type' to the 'employees' table
+ALTER TABLE employees
+ADD COLUMN employee_type VARCHAR(50);
+
+
+-- Updating the 'employee_type' for specific employees
+UPDATE employees
+SET employee_type = 'Full-Time'
+WHERE employee_id = 1;
+
+UPDATE employees
+SET employee_type = 'Part-Time'
+WHERE employee_id = 4;
+
+
+-- Updating the 'employee_type' for specific employees
+UPDATE employees
+SET employee_type = 'Full-Time'
+WHERE employee_id = 2;
+
+UPDATE employees
+SET employee_type = 'Part-Time'
+WHERE employee_id = 5;
