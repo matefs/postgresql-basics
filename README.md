@@ -9,6 +9,9 @@
 - Rules
     - **Must have semicolons ";" at every line**
 
+#### Cursors: 
+In PostgreSQL, a cursor is a mechanism that allows you to iterate and process the results of a SQL query in a step-by-step manner. In simpler terms, it acts like a "pointer" pointing to the results of a query and lets you traverse through them one by one, rather than fetching all the results at once.
+
 #### Working with strings: 
 ```yaml
 lpad = rjust do python 
