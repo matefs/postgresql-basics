@@ -1,0 +1,3 @@
+
+SELECT
+	COALESCE (NULL, 2 , 1);
