@@ -2,6 +2,9 @@
 
 ![image](https://github.com/matefs/postgresql-basics/assets/30128774/4c943064-efe2-4624-b56e-d9d5564f6e8d)
 
+### Performance: 
+- To acess execution plan, use the command `EXPLAIN ANALYZE` before the query.
+- Example: `EXPLAIN ANALYZE SELECT * FROM exemplo;`
 
 ### Transactions  
 - All-or-nothing: Like taking ALL groceries out before paying, ensuring data consistency.
