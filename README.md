@@ -7,6 +7,9 @@
 - Example: `EXPLAIN ANALYZE SELECT * FROM exemplo;`
 - ![image psd(1)](https://github.com/matefs/postgresql-basics/assets/30128774/4ac4c779-2558-4e2b-9b56-435d653d0cfa)
 
+### Preventing dead tuples:
+- `INSERT INTO blog   VALUES (1,'AWS Blog1') ON CONFLICT DO NOTHING;` 
+- Source: https://aws.amazon.com/pt/blogs/database/hidden-dangers-of-duplicate-key-violations-in-postgresql-and-how-to-avoid-them/
 
 ### Transactions  
 - All-or-nothing: Like taking ALL groceries out before paying, ensuring data consistency.
